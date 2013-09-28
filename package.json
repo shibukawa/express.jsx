@@ -1,6 +1,6 @@
 {
   "name": "express.jsx",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "JSX wrapper for express",
   "scripts": {
     "build": "grunt build",
@@ -15,9 +15,9 @@
     "lib"
   ],
   "main": "./lib/express.jsx",
-  "homepage": "https://github.org/shibukawa/express.jsx.git",
+  "homepage": "https://github.com/shibukawa/express.jsx.git",
   "bugs": {
-    "url": "https://github.org/shibukawa/express.jsx.git/issues"
+    "url": "https://github.com/shibukawa/express.jsx.git/issues"
   },
   "directories": {
     "doc": "./doc",

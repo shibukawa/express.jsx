@@ -52,7 +52,7 @@ Development
 ## Repository
 
 * Repository: git@github.com:shibukawa/express.jsx.git
-* Issues: https://github.org/shibukawa/express.jsx.git/issues
+* Issues: https://github.com/shibukawa/express.jsx.git/issues
 
 ## Run Test
 
