@@ -1,0 +1,41 @@
+{
+  "name": "express.jsx",
+  "version": "0.1.0",
+  "description": "JSX wrapper for express",
+  "scripts": {
+    "build": "grunt build",
+    "test": "grunt test",
+    "doc": "grunt doc"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "keywords": [
+    "jsx",
+    "lib"
+  ],
+  "main": "./lib/express.jsx",
+  "homepage": "https://github.org/shibukawa/express.jsx.git",
+  "bugs": {
+    "url": "https://github.org/shibukawa/express.jsx.git/issues"
+  },
+  "directories": {
+    "doc": "./doc",
+    "lib": "./lib",
+    "test": "./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:shibukawa/express.jsx.git"
+  },
+  "devDependencies": {
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt": "~0.4.1",
+    "grunt-jsx": "~0.0.4"
+  },
+  "author": "shibukawa",
+  "license": "MIT",
+  "dependencies": {
+    "express": "~3.4.0"
+  }
+}
