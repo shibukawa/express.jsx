@@ -4,7 +4,7 @@ module.exports = function(grunt) {
 
   grunt.initConfig({
     sampleDir: "samples",
-    libDir: "lib",
+    libDir: ["lib", "nodejs.jsx/lib"],
     testDir: "test",
     docDir: "doc",
 
@@ -22,20 +22,20 @@ module.exports = function(grunt) {
     jsx: {
       build: {
         src: ['<%= sampleDir %>/*.jsx'],
-        add_search_path: ['<%= libDir %>'],
+        add_search_path: '<%= libDir %>',
         dest : '<%= sampleDir %>/express-sample',
         executable: 'node'
       },
 
       test: {
         src: ['<%= testDir %>/*.jsx'],
-        add_search_path: ['<%= libDir %>'],
+        add_search_path: '<%= libDir %>',
         args: '--test'
       },
 
       doc: {
         src: ['<%= libDir %>/*.jsx'],
-        add_search_path: ['<%= libDir %>'],
+        add_search_path: '<%= libDir %>',
         dest: '<%= docDir %>',
         mode: 'doc'
       }

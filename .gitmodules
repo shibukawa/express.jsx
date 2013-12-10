@@ -1,0 +1,3 @@
+[submodule "nodejs.jsx"]
+	path = nodejs.jsx
+	url = https://github.com/jsx/nodejs.jsx.git
