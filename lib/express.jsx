@@ -8,7 +8,7 @@
  * @see git@github.com:shibukawa/express.jsx.git
  */
 
-import "js/nodejs.jsx";
+import "nodejs/nodejs.jsx";
 
 /**
  * express serer generate class.
